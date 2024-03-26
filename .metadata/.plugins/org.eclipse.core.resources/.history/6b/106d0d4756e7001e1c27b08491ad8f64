@@ -1,0 +1,8 @@
+package Week3;
+import java.util.Scanner;
+public class 배열로성적매기기 {
+	public static void main(String[] args)
+	{
+		
+	}
+}
