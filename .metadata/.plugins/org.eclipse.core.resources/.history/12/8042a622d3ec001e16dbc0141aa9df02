@@ -1,0 +1,19 @@
+package Week4;
+import java.util.Scanner;
+
+public class 예제_3_11 {
+	
+	private static void showArray(int[] ar) {
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		int[] ar;
+		Scanner input = new Scanner(System.in);
+		System.out.println("정수 몇개를 입력할 까요?: ");
+		int size = input.nextInt();
+		
+		ar = new int[size];
+	}
+}
