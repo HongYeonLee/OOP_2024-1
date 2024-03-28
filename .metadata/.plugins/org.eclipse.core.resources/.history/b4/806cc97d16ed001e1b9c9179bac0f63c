@@ -1,0 +1,14 @@
+package Week4;
+
+public class 실습2_내마음대로반복하기 {
+	public static void main(String[] args)
+	{
+		
+		OddMulti(int n);
+		EvenMulti(int n);
+		InverseMulti(int n);
+		SkipMulti();
+	}
+	
+	
+}
