@@ -1,82 +1,35 @@
-1 Page summary
+이클립스 사용법
+scr 폴더를 우클릭 -> New -> Package (폴더개념)
+                                         -> Class -> Package는 속할 폴더의 이름, Name은 ,java 파일의 이름
 
-[입력]
+왼쪽의 Package Explorer가 사라졌을 땐 Window -> Show view -> Package Explorer
 
-import java.util.Scanner; 
+Package Explorer에서 생성할 폴더의 이름을 우클릭 -> New -> Other -> AmaterasUML 을 누르면 Amateras의 다양한 도구들을 사용할 수 있다.
+Class Diagram 선택하여 왼쪽의 Class 클릭 후 흰 바탕 클릭 - > Class 더블 클릭시 이름을 바꿀 수 있고 우클릭 -> Add Attribute (변수 추가)
+                                                                                                                                                                      -> Add  Operation (메소드 추가)
 
-Scanner input(원하는 변수명) = new Scanner(System.in);
+Window -> Preference -> Appearance -> Theme 을 변경하면 이클립스의 테마 색상을 바꿀 수 있다
+Ctrol + 또는 - 를 입력하면 글자 크기를 바꿀 수 있다
 
-int 변수 = input.nextInt();
+자바
+클래스의 하위에 메소드가 존재하고 클래스의 이름과 파일명은 같아야 한다.
+public class 클래스이름
+public static void main(String[] args)
+System.out.println("출력할 내용")
 
-double 변수 = input.nextDouble;
+단축키
+프린트문 - syso + ctrl + space
+메인 메소드 - : public static void main(String[] args)
+F11 - 실행
 
-* String 변수 = input.next(); // 공백(엔터) 단위로 문자열을 읽음, 유효 문자열 앞에 있는 공백과 엔터는  전부 날림
+콘솔
+윈도우 검색창에 cmd 입력 후 엔터
+디폴트 경로 C:\Users\user>
+cd 디렉토리 이름 - change directory
+cd .. - 상위 디렉토리로 이동
+notepad 만들 메모장의 이름 - 메모장 생성 -> 메모장에 원하는 코드 작성 -> 파일 -> 다른 이름으로 저장 -> 파일 형식 모든 파일로 변경, 인코딩 UTF-8 (일반적으로는 ANSI)
+-> 콘솔에 javac 만든 메모장의 이름.java (자바파일을 클래스 파일로 컨파일) -> java 만든 메모장의 이름 (실행)
 
-* String 변수 = input.nextLine(); // 엔터가 나올 때까지 전부 읽고 마지막 엔터는 남겨둠 -> 이 상태에서 nextLine()으로 한번 더 읽으면 입력버퍼 앞에 남아있던 엔터 때문에 제대로 읽지 못하므로 엔터를 날려줘야 함
+콘솔 화면 내용 초기화 - cls
 
-input.close(); - 인풋 닫기
-
-
-
-[연산자]
-
-괄호는 최우선순위 연산
-
-단항 연산자인 ++, -- 가 우선순위가 제일 높다.
-
-대입 연산자인 =, +=, -=, *=... 가 우선 순위가 제일 낮다
-
-// 몫
-
-% 나머지
-
-정수/정수 = 정수
-
-실수/정수 = 실수
-
-실수/실수 = 실수
-
-조건 연산자 condition ? opr2 : opr3 
-condition이 true이면 opr2 실행, false이면 opr3 실행
-
-* a++은 먼저 a를 변수에 대입하고 a의 값을 1 증가
-
-* ++a는 먼저 a의 값을 1 증가하고 변수에 대입
-
-예제 2-6 참고
-
-[비트 연산자]
-& - and 역할 두 비트가 둘 다 1일 때만 1 반환, 나머지는 0 반환
-| - or 역할 두 비트 중 하나라도 1이면 1 반환, 둘 다 0이면 0 반환
-^ - exclusive or 역할 두 비트가 다르면 1 반환, 같으면 0 반환
-~ - not 역할
-a > > b - a 비트를 오른쪽으로 b번 민다. 비게될 최상위 비트는 밀기 전 비트의 최상위 비트와 동일한 숫자로 채운다
-a > > > b - a 비트를 오른쪽으로 b번 민다. 비게될 최상위 비트는 0으로 채운다
-a < < b - a 비트를 왼쪽으로 b번 민다. 비게될 최하위 비트는 0으로 채운다
-
-[비교문]
-
-if {
-//원하는 내용
-}
-else {
-//원하는 내용
-}
-
-switch (식){
-case 값1 :
-        //원하는 내용
-        break; (의도적 생략가능)
-case 값2:
-          ....
-case 값3:
-          ....
-default:
-         .... (모든 case를 빠져나온 경우이므로 break; 쓰지 않는다)
-
-}
-
-[초기화]
-
-char형을 초기화 할 때 '를 이용하고 공백으로 초기화하고 싶다면 '  ' 사이에 공백이 들어가야 한다
-String형을 초기화 할 때는 "를 이용한다. 공백으로 초기화하고 싶다면 "" 사이에 공백이 들어가지 않아도 된다.
+AmaterasUML을 이용해 만든 클래스 다이어그램은 지워지지가 않는다 왜그럴까
