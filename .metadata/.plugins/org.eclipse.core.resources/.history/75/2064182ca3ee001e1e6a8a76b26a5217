@@ -1,0 +1,37 @@
+package Baekjoon;
+import java.util.Scanner;
+public class programmers_2016 {
+	public static void main (String[] args) {
+		int month, day;
+		Scanner input = new Scanner(System.in);
+		month = input.nextInt();
+		
+		switch (month-1)
+		{
+		case 11:
+			day += 30;
+		case 10:
+			day += 31;
+		case 9:
+			day += 30;
+		case 8:
+			day += 31;
+		case 7:
+			day += 31;
+		case 6:
+			day += 30;
+		case 5:
+			day += 31;
+		case 4:
+			day += 30;
+		case 3:
+			day += 31;
+		case 2:
+			day += 29;
+		case 1:
+			day += 31;
+			break;
+		}
+	}
+}
+}

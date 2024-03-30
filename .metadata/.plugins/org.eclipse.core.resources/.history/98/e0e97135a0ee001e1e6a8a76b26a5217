@@ -1,0 +1,73 @@
+package Baekjoon;
+import java.util.Scanner;
+public class BJ_3003 {
+//	public static void main(String[] args)
+//	{
+//		int[] chess = {1, 1, 2, 2, 2, 8};
+//		int[] inputarray = new int[6];
+//		int[] checker = new int[6];
+//
+//		Scanner input = new Scanner(System.in);
+//
+//		for (int i = 0; i <6; i++)
+//		{
+//			inputarray[i] = input.nextInt();
+//			checker[i] = chess[i] - inputarray[i];
+//		}
+//
+//		System.out.println();
+//
+//
+//
+//	}
+//}
+//
+//import java.util.Scanner;
+//
+//public class Main {
+
+	public static int SIZE = 6;
+
+	public static int[] chess = {1, 1, 2, 2, 2, 8};
+
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+
+		int input = 0;
+
+		int[] arr = new int[SIZE];
+
+
+		for(int i = 0; i < SIZE; i++) {
+
+			input = sc.nextInt();
+
+
+			if (input == chess[i]) {
+
+				continue;
+
+			} else {
+
+				arr[i] = chess[i] - input;
+
+			}
+
+		}
+
+
+		for (int i = 0; i < SIZE; i++) {
+
+			System.out.print(arr[i] + " ");
+
+		}
+
+
+		sc.close();
+
+	}
+
+}
