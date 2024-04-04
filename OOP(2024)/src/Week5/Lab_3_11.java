@@ -25,7 +25,7 @@ public class Lab_3_11 {
 		Scanner input = new Scanner(System.in);
 		
 		//행크기와 열크기를 각각 입력 받아서 만들어봅니다
-		System.out.println("행크기 입력하세요: ");
+		System.out.print("행크기 입력하세요: ");
 		int row = input.nextInt();
 		//행생성
 		array = new int[row][];

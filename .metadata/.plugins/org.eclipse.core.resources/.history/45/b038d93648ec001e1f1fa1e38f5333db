@@ -1,8 +1,0 @@
-package Baekjoon;
-
-public class 입출력_기본 {
-	public static void main(String[] args)
-	{
-		System.out.println("Hello World!");
-	}
-}
