@@ -15,10 +15,10 @@ public class 과제3_트리만들기 {
 	
 	public static void drawRightTriangle(int 높이) //오른쪽 직각 삼각형 그리기
 	{
-		for (int i = 0; i <= 높이; i++)
+		for (int i = 0; i < 높이; i++) //i<높이 주의
 		{
 			//빈칸 찍는 반복문 추가
-			for (int j = 0; j < 높이 - i; j++)
+			for (int j = 0; j < 높이 - i; j++) // 높이가 5일때 0번째는 빈칸 5개
 				System.out.print(" "); //공백을 찍을때는 " " 하고 스페이스 넣어두기
 			
 			for (int k = 0; k <= i; k++) //i<=높이 주의
