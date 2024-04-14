@@ -26,6 +26,8 @@ public class Circle {
 		System.out.println("원이 이름을 " + name + "으로 세팅합니다");
 		System.out.println("반지름을 " + radius + "으로 세팅합니다");
 	}
+	
+	
 
 	//////////////////////////////////
 	

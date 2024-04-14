@@ -978,6 +978,134 @@
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[4]"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[4]/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[4]/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel[2]/source"/>
+    <net.java.amateras.uml.model.NoteModel>
+      <backgroundColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>206</blue>
+      </backgroundColor>
+      <foregroundColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+      </foregroundColor>
+      <showIcon>true</showIcon>
+      <parent class="net.java.amateras.uml.model.RootModel">
+        <backgroundColor reference="../../backgroundColor"/>
+        <foregroundColor reference="../../foregroundColor"/>
+        <showIcon>true</showIcon>
+        <listeners serialization="custom">
+          <java.beans.PropertyChangeSupport>
+            <default>
+              <source class="net.java.amateras.uml.model.RootModel" reference="../../../.."/>
+              <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+            </default>
+            <null/>
+          </java.beans.PropertyChangeSupport>
+        </listeners>
+        <sourceConnections/>
+        <targetConnections/>
+        <children>
+          <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../../../net.java.amateras.uml.classdiagram.model.ClassModel"/>
+          <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../../../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source"/>
+          <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../../../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[3]"/>
+          <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../../../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[4]"/>
+          <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../../../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[4]/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source"/>
+          <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../../../net.java.amateras.uml.classdiagram.model.ClassModel/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[4]/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel[2]/source"/>
+          <net.java.amateras.uml.model.NoteModel reference="../../.."/>
+        </children>
+        <filterProperty/>
+      </parent>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="net.java.amateras.uml.model.NoteModel" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <constraint>
+        <height>521</height>
+        <width>649</width>
+        <x>849</x>
+        <y>82</y>
+      </constraint>
+      <sourceConnections/>
+      <targetConnections/>
+      <children/>
+      <filterProperty/>
+      <content>1. 동물은&#xd;
+-고양이, 강아지, 팬더, 쿵푸팬더, 자이어트팬더&#xd;
+ex) 고양이는 동물이다, 강아지는 동물이다&#xd;
+&#xd;
+2. 동물의 속성:&#xd;
+-이름, 나이가 있다&#xd;
+ex) 고양이는 이름이 있다&#xd;
+&#xd;
+3. 동물의 기능:&#xd;
+-놀기가 있다&#xd;
+&#xd;
+4. 고양이의 기능:&#xd;
+-할퀴기가 있다&#xd;
+-상자에 들어가기가 있다&#xd;
+-그루밍이 있다&#xd;
+&#xd;
+5. 강아지의 기능:&#xd;
+-짖기가 있다&#xd;
+-물기가 있다&#xd;
+-애교부리기가 있다&#xd;
+-신발물고도망가기가 있다&#xd;
+-공부하기가 있다&#xd;
+-놀기가 있다&#xd;
+&#xd;
+6. 팬더는&#xd;
+-자이어트팬더, 쿵푸팬더&#xd;
+ex) 자이어트팬더는 팬더이다, 쿵푸팬더는 팬더이다&#xd;
+&#xd;
+7. 팬더의 기능&#xd;
+-대나무먹기가 있다&#xd;
+&#xd;
+8. 자이어트팬더의 기능&#xd;
+-앞구르기가 있다&#xd;
+&#xd;
+9. 쿵푸팬더의 기능&#xd;
+-만두먹기가 있다&#xd;
+-쿵푸하기가 있다</content>
+      <old>1. 동물은&#xd;
+-고양이, 강아지, 팬더, 쿵푸팬더, 자이어트팬더&#xd;
+ex) 고양이는 동물이다, 강아지는 동물이다&#xd;
+&#xd;
+2. 동물의 속성:&#xd;
+-이름, 나이가 있다&#xd;
+ex) 고양이는 이름이 있다&#xd;
+&#xd;
+3. 동물의 기능:&#xd;
+-놀기가 있다&#xd;
+&#xd;
+4. 고양이의 기능:&#xd;
+-할퀴기가 있다&#xd;
+-상자에 들어가기가 있다&#xd;
+-그루밍이 있다&#xd;
+&#xd;
+5. 강아지의 기능:&#xd;
+-짖기가 있다&#xd;
+-물기가 있다&#xd;
+-애교부리기가 있다&#xd;
+-신발물고도망가기가 있다&#xd;
+-공부하기가 있다&#xd;
+-놀기가 있다&#xd;
+&#xd;
+6. 팬더의 기능&#xd;
+-대나무먹기가 있다&#xd;
+&#xd;
+7. 자이어트팬더의 기능&#xd;
+-앞구르기가 있다&#xd;
+&#xd;
+8. 쿵푸팬더의 기능&#xd;
+-만두먹기가 있다&#xd;
+-쿵푸하기가 있다</old>
+    </net.java.amateras.uml.model.NoteModel>
   </children>
   <filterProperty/>
 </net.java.amateras.uml.model.RootModel>
