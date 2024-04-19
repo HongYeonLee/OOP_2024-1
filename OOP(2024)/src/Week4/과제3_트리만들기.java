@@ -8,9 +8,16 @@ public class 과제3_트리만들기 {
 		for (int i = 0; i <= 높이; i++) //i<=높이 주의
 		{
 			for (int j = 0; j < i; j++)
-				System.out.print("*");
+				System.out.print("*"); //println 아니고 print!!
 			System.out.println();
 		}
+		
+		//또는 for (int i = 0; i < 높이; i++)
+		//		for (int j = 0; j <= i; j++)
+		//		{
+		//			System.out.print("*");
+		//		}
+		//		System.out.println();
 	}
 	
 	public static void drawRightTriangle(int 높이) //오른쪽 직각 삼각형 그리기
