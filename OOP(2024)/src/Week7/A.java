@@ -18,7 +18,7 @@ public class A extends B implements Ia{
 	
 	//메소드 오버라이딩
 	public void m() {
-		System.out.println("10");
+		System.out.println("A에서 m메소드 호출");
 	}
 	
 //	@Override

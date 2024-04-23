@@ -40,7 +40,7 @@ public class Circle {
 		//this를 이용해 클래스내의 private 변수를 자유롭게 접근할 수 있고
 		//변수명이 똑같은 경우에도 헷갈리지 않게 할 수 있다
 		this.radius = radius;
-		System.out.println("반지름을 " + this.radius + "으로 세팅합니다");
+		System.out.println("setter를 통해 반지름을 " + this.radius + "으로 세팅합니다");
 	}
 	
 	public int getRadius()

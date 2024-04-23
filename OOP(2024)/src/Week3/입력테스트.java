@@ -40,11 +40,14 @@ public class 입력테스트 {
 		String name;
 		int age;
 		
-		System.out.println("나이: ");
+		//22(엔터)에서 nextInt()가 22만 먹고 뒤에 엔터를 입력버퍼 맨 앞에 남겨둠
+		//nextLine()은 입력버퍼앞에 있는 엔터만 먹고 바로 실행종료
+		System.out.print("나이: "); 
 		age = input.nextInt();
-		System.out.println("이름: ");
+		System.out.print("이름: ");
 		name = input.nextLine();
 		
+		System.out.println();
 		System.out.println("============");
 		System.out.println("이름 : " + name);
 		System.out.println("나이 : " + age);

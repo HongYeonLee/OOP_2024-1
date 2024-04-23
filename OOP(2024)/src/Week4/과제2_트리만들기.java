@@ -1,7 +1,7 @@
 package Week4;
 import java.util.Scanner;
 
-public class 과제3_트리만들기 {
+public class 과제2_트리만들기 {
 	
 	public static void drawLeftTriangle(int 높이) //왼쪽 직각 삼각형 그리기
 	{

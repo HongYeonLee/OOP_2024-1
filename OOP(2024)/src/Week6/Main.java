@@ -10,5 +10,10 @@ public class Main {
 		
 		Circle e = new Circle();
 		e.setRadius(7);
+		
+		Circle[] cArray = new Circle[5];
+		for (int i = 0; i < cArray.length; i++)
+			cArray[i] = new Circle(i);
+		
 	}
 }

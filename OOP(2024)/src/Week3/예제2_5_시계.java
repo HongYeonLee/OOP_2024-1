@@ -1,6 +1,6 @@
 package Week3;
 import java.util.Scanner;
-public class 시계 {
+public class 예제2_5_시계 {
 	public static void main (String[] args)
 	{
 		Scanner input = new Scanner(System.in);

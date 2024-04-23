@@ -14,9 +14,6 @@ public class Lab_3_5 {
 		
 		while (true)
 		{
-			if (count == 5) //입력받은 양수가 5개이면 while문 탈출
-				break;
-			
 			System.out.printf("%d번째 정수: ", count + 1);
 			
 			n = input.nextInt();
@@ -25,6 +22,13 @@ public class Lab_3_5 {
 				continue;
 			
 			count++;//양수이면 입력받은 양수의 개수 증가
+			sum += n;
+			
+			if (count == 5) //입력받은 양수가 5개이면 while문 탈출
+				break;
 		}
+		
+		//합계 출력
+		System.out.println("양수의 합은 " + sum);
 	}
 }
