@@ -8,7 +8,6 @@ public class Main {
 		Ia c = new A();
 		
 		b.m();
-		
 		//b 객체는 A클래스로 만들어졌으며 B클래스의 시점으로 바라본다
 		//그러면 b 객체는 A 클래스의 필드와 메소드만 쓸 수 있다
 		//b.data

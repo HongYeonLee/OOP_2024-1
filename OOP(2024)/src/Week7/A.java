@@ -4,7 +4,6 @@ public class A extends B implements Ia{
 	int name;
 	
 	public void a() {
-		
 	}
 
 	//메소드 오버로딩
