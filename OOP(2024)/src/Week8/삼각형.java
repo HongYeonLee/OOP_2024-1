@@ -1,4 +1,4 @@
-package 중간고사;
+package Week8;
 import java.util.Scanner;
 public class 삼각형 {
 	public static void 왼쪽직각(int 높이)

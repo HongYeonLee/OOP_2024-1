@@ -1,4 +1,4 @@
-package 중간고사;
+package Week8;
 import java.util.Scanner;
 
 public class 워밍업_2 {
