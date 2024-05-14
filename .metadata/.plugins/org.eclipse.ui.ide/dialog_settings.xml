@@ -12,6 +12,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\OOP_2024-1\HunterAnimal"/>
 			<item value="C:\Users\user\Downloads\HunterAnimal -기본 설계와 코드-20240507\HunterAnimal"/>
 		</list>
 	</section>
