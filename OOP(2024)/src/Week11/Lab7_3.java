@@ -2,7 +2,7 @@ package Week11;
 
 import java.util.Scanner;
 
-public class Lab3 {
+public class Lab7_3 {
 	public static int getInt(String msg) {
 		
 		Scanner input = new Scanner(System.in);
