@@ -29,6 +29,20 @@ public class Lab7_3 {
 		
 	}
 	
+	private static int divide(int num1, int num2) {
+		// TODO Auto-generated method stub
+		
+		try {
+			return num1 / num2;
+		}
+		catch(java.lang.ArithmeticException e)
+		{
+			e.printStackTrace();
+			System.out.println("0으로 나눌 수 없습니다! 0을 리턴합니다");
+			return num2;
+		}
+	}
+	
 	public static void main(String[] args)
 	{
 		int num1 = getInt("정수1: ");
@@ -43,16 +57,5 @@ public class Lab7_3 {
 		System.out.println("두 수의 나눗셈은 " + result2);
 	}
 
-	private static int divide(int num1, int num2) {
-		// TODO Auto-generated method stub
-		
-		try {
-			return num1 / num2;
-		}
-		catch(java.lang.ArithmeticException e)
-		{
-			System.out.println("0으로 나눌 수 없으므로 0을 리턴합니다!");
-			return num2;
-		}
-	}
+
 }
