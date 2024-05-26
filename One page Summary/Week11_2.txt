@@ -1,0 +1,45 @@
+1 page summary
+[에러와 예외]
+에러
+: 문법오류(=컴파일오류)로 발생하는 것
+ex) if (a = b), pritn
+예외
+: 코드에는 오류가 없으나 실행 중에 에러가 발생하는 것
+ex) 정수를 입력받기로 코드가 짜여있는데 사용자가 문자열을 입력한 경우
+일반예외와 실행예외로 나눌 수 있다
+일반예외
+: 예외처리코드가 반드시 필요한 것
+실행예외 (RuntimeException)
+: 예외처리코드가 없어도 컴파일이 되나 실행 중에 에러가 발생할 수 있다
+ex) NullPointerException, NumberFormatException, ArrayIndexOfBoundsException 등등
+[try와 throw]
+1. try-catch-finally
+형식
+try
+{
+//예외가 발생할 수 있는 코드
+}
+catch(예외클래스 e)
+{
+//예외 처리 코드
+}
+finally
+{
+//예외 발생 여부와 상관없이 실행되는 코드
+}
+catch문은 여러 개 작성될 수 있다.
+여러 개 작성할 때는 구체적인 예외 먼저 작성한다.
+따라서 가장 상위클래스인 Exception클래스는 가장 마지막에 작성한다
+catch문 하나에 or를 이용해 여러 개의 예외클래스를 작성해도 된다
+[throw]
+형식
+메소드의 헤더끝에 throw 예외클래스1, 예외클래스2,..방식으로 작성한다
+해당 메소드에서 예외가 발생하면 해당 메소드에서 예외를 처리하지 않고
+해당 메소드를 호출한 곳에서 예외를 처리허도록 예외를 넘긴다
+[에러메세지]
+getMessage()
+: 에러 발생시 콘솔에 나오는 빨간 메시지를 리턴하는 메소드
+String msg = 예외클래스 참조변수.getMessage();
+printStackTrace()
+: 에러 발생시 콘솔에 나오는 빨간 메시지를 출력하는 메소드
+예외클래스 참조변수.printStackTrace();
