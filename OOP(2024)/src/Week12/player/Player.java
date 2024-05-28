@@ -5,11 +5,13 @@ public abstract class Player {
     public String name;
     private int hp;
     private int power;
+    private String imgFile; // 이미지화일이름을 저장할 문자열
     
-    public Player(String name, int hp, int power) {
+    public Player(String name, int hp, int power, String imgFile) {
 		this.name = name;
 		this.hp = hp;
 		this.power = power;
+		this.imgFile = imgFile;
 	}
 
 	public int getHp() {
@@ -31,7 +33,7 @@ public abstract class Player {
 	public void attack(Player target)
 	{
 		//무기없음. target의 hp를 power만큼 감소시킴
-		System.out.printf("%s ---> %s \n", this.name, target.name);
+		System.out.printf("%s가 %s을 공격합니다. \n", this.name, target.name);
 		target.hp -= this.power;
 	}
 		
@@ -57,4 +59,14 @@ public abstract class Player {
     	
     	System.out.println();
     }
+
+	public String getImgFile() {
+		return imgFile;
+	}
+
+	public void setImgFile(String imgFile) {
+		this.imgFile = imgFile;
+	}
+    
+    
 }
