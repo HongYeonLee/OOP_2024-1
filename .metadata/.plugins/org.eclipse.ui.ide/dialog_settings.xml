@@ -25,8 +25,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\OOP_2024-1\Battle"/>
 			<item value="C:\OOP_2024-1\소융창"/>
+			<item value="C:\OOP_2024-1\Battle"/>
 			<item value="C:\OOP_2024-1\EZ"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
