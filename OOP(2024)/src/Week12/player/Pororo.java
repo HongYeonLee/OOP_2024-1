@@ -12,11 +12,11 @@ public class Pororo extends Player {
 	}
 
 	public Pororo(String name, int hp, int power, String image){
-		super(name, hp, power, image);
+		//super(name, hp, power, image);
 	}
 	
 	public Pororo(String name, int hp, int power, int stress, String image){
-		super(name, hp, power, image);
+		//super(name, hp, power, image);
 		this.stress = stress;
 	}
 	

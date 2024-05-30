@@ -47,11 +47,11 @@ public class Main {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		//name, hp, power, stress
-		//Player p1 = new Pororo("짱구", 100, 25, 60); 
-		//Player p2 = new Pororo("미미", 100, 10, 20);
+		Player p1 = new Player("짱구", 100, 25, "짱1.png", "짱2.png"); //실제로 만들때는 Player 객체로 만들지 말고
+		Player p2 = new Player("미미", 100, 10, "미1.png", "미2.png");
 
 		//콘솔run(p1, p2);
-		//new GameWindow(p1, p2);
+		new Mywin(p1, p2);
 
 
 	}

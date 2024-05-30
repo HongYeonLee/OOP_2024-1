@@ -1,47 +1,31 @@
 package Week12.player;
 import java.util.ArrayList;
 
-public abstract class Player {
+public class Player {
     public String name;
     private int hp;
     private int power;
-    private String imgFile; // 이미지화일이름을 저장할 문자열
+    private String imgFile1; // 이미지화일이름을 저장할 문자열
+    private String imgFile2;
     
-    public Player(String name, int hp, int power, String imgFile) {
+    public Player(){
+    }
+    
+    public Player(String name, int hp, int power, String imgFile1, String imgFile2) {
 		this.name = name;
 		this.hp = hp;
 		this.power = power;
-		this.imgFile = imgFile;
+		this.imgFile1 = imgFile1;
+		this.imgFile2 = imgFile2;
 	}
-
-	public int getHp() {
-		return hp;
-	}
-
-	public void setHp(int hp) {
-		this.hp = hp;
-	}
-
-	public int getPower() {
-		return power;
-	}
-
-	public void setPower(int power) {
-		this.power = power;
-	}
-
+    
 	public void attack(Player target)
 	{
 		//무기없음. target의 hp를 power만큼 감소시킴
 		System.out.printf("%s가 %s을 공격합니다. \n", this.name, target.name);
 		target.hp -= this.power;
 	}
-		
-    //public abstract void attack(Player target); //attack은 player마다 다를 예정이니 player클래스에서 구현할 필요x -> abstract
-
-    public void attack(ArrayList<Player> targets){
-    }
-
+	
     public void show(){
     	
     	System.out.printf("%2s(%3d)(%2d) : ", this.name, this.hp, this.power);
@@ -59,14 +43,45 @@ public abstract class Player {
     	
     	System.out.println();
     }
-
-	public String getImgFile() {
-		return imgFile;
+	
+	public int getHp() {
+		return hp;
 	}
 
-	public void setImgFile(String imgFile) {
-		this.imgFile = imgFile;
+	public void setHp(int hp) {
+		this.hp = hp;
 	}
+
+	public int getPower() {
+		return power;
+	}
+
+	public void setPower(int power) {
+		this.power = power;
+	}
+
+    public String getImgFile1() {
+		return imgFile1;
+	}
+
+	public String getImgFile2() {
+		return imgFile2;
+	}
+
+	public void setImgFile1(String imgFile1) {
+		this.imgFile1 = imgFile1;
+	}
+
+	public void setImgFile2(String imgFile2) {
+		this.imgFile2 = imgFile2;
+	}
+
+    //public abstract void attack(Player target); //attack은 player마다 다를 예정이니 player클래스에서 구현할 필요x -> abstract
+	
+	public void attack(ArrayList<Player> targets){
+    }
+
+    
     
     
 }
