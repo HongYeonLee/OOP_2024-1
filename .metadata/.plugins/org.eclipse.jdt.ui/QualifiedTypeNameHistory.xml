@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="player.Player"/>
     <fullyQualifiedTypeName name="player.Pororo"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="javax.swing.JFrame"/>
@@ -17,5 +16,12 @@
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="Week12.player.Player"/>
+    <fullyQualifiedTypeName name="myInterface.StressRelief"/>
+    <fullyQualifiedTypeName name="myInterface.Attackable"/>
+    <fullyQualifiedTypeName name="player.Player"/>
+    <fullyQualifiedTypeName name="Weapon.Weapon"/>
+    <fullyQualifiedTypeName name="Player.리암"/>
+    <fullyQualifiedTypeName name="Player.노엘"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="View.MyView"/>
 </qualifiedTypeNameHistroy>

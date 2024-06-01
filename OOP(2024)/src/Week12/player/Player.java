@@ -5,8 +5,8 @@ public class Player {
     public String name;
     private int hp;
     private int power;
-    private String imgFile1; // 이미지화일이름을 저장할 문자열
-    private String imgFile2;
+    private String imgFile1; // 이미지파일의 이름을 저장할 문자열
+    private String imgFile2; // 1은 살은 모습, 2는 죽은 모습
     
     public Player(){
     }
