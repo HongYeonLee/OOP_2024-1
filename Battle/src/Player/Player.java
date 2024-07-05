@@ -1,6 +1,9 @@
 package Player;
 
+import java.util.ArrayList;
+
 import Weapon.Weapon;
+import Player.Player;
 import myInterface.Attackable;
 import myInterface.StressRelief;
 
@@ -99,7 +102,20 @@ public abstract class Player implements StressRelief, Attackable {
     		
     }
     
-    public void show_header(){
+    public void attack(ArrayList<Player> targets) {
+    	if (this.stress < 10) {
+    		System.out.print(this.name + "이(가) ");
+    		for (Player p : targets)
+    		{
+    			System.out.println(p.name + "을(를) 공격합니다!");
+    			p.hp -= this.power;
+    			this.stress += 1;
+    		}
+    	}
+    	else
+    	{
+    		System.out.println(this.name + "의 스트레스가 너무 높아 공격하기 싫어합니다...");
+    	}
     }
 
     public void show(){

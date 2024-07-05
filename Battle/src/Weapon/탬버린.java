@@ -11,5 +11,8 @@ public class 탬버린 extends Weapon {
 
     public void 공격하기(Player target){
     }
-
+    
+    public void 탬버린던지기(Player target) {
+    	
+    }
 }

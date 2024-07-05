@@ -11,5 +11,9 @@ public class 안경 extends Weapon {
 
     public void 공격하기(Player target){
     }
+    
+    public void 안경던지기(Player target) {
+    	
+    }
 
 }

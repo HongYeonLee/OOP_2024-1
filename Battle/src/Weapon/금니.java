@@ -11,5 +11,9 @@ public class 금니 extends Weapon {
 
     public void 공격하기(Player target){
     }
+    
+    public void 금니보여주기(Player target) {
+    	
+    }
 
 }

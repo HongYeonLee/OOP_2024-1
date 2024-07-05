@@ -13,7 +13,7 @@ public class OptimalRoute extends EZ {
     	
     }
     
-    public void setStartingPoint(String startPoint){ //매개변수 지우고 키로 입력받기
+    public void setStartingPoint(String startPoint){
     	this.startingPoint = startPoint;
     }
 
@@ -21,7 +21,7 @@ public class OptimalRoute extends EZ {
         return startingPoint;
     }
 
-    public void setDestination(String destination){ //매개변수 지우고 키로 입력받기
+    public void setDestination(String destination){
     	this.destination = destination;
     }
 

@@ -17,7 +17,7 @@ public class Student extends User {
     
     @Override
     public void login(String userID, String userPassWord) {
-    	if(getUserID() == userID && getUserPassWord() == userPassWord)
+    	if(getUserID().equals(userID) && getUserPassWord().equals(userPassWord))
     		System.out.println("EZ에 로그인되었습니다");
     	else 
     		System.out.println("아이디 또는 비밀번호가 잘못되었습니다");

@@ -35,11 +35,12 @@ public abstract class EZ {
     }
 
     public void showUserLocation(){
+    	System.out.println("사용자의 위치를 지도에 표시합니다");
     	
     }
 
     public void showSlope(){
-    	
+    	System.out.println("도로의 경사도를 지도에 표시합니다");
     }
 
 }

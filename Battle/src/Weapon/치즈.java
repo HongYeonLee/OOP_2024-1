@@ -11,5 +11,9 @@ public class 치즈 extends Weapon {
 
     public void 공격하기(Player target){
     }
+    
+    public void 치즈만들기(Player target) {
+    	
+    }
 
 }

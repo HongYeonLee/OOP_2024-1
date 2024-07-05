@@ -17,7 +17,7 @@ public class Lab7_2 {
 			{
 				System.out.print("정수 입력: ");
 				number = input.nextLine(); //우선 입력값을 문자열로 저장
-				value = Integer.parseInt(number); //String -> Integer 변환, NumberFormatException 발생 가능
+				value = Integer.parseInt(number); //String -> int 변환, NumberFormatException 발생 가능
 				correct = true; //만약 예외가 발생하지 않았다면 while 탈출
 			}
 			catch(NumberFormatException e)

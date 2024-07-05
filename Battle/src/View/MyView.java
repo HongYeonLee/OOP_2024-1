@@ -14,6 +14,9 @@ import javax.swing.JProgressBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.awt.event.ActionEvent;
 import javax.swing.SwingConstants;
 import java.awt.Color;
@@ -126,6 +129,25 @@ public class MyView extends JFrame {
 		});
 		스트레스버튼2.setBounds(490, 481, 249, 44);
 		contentPane.add(스트레스버튼2);
+		
+		JButton btnNewButton = new JButton("파일로저장");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				File outfile = new File("c:\\Temp\\gamelog.txt");
+				PrintWriter out = null;
+				try {
+					out = new PrintWriter(outfile);
+					out.println(textArea.getText());
+					
+				} catch (FileNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+			}
+		});
+		btnNewButton.setBounds(297, 461, 150, 85);
+		contentPane.add(btnNewButton);
 	}
 	
 	public MyView(Player p1, Player p2) {
